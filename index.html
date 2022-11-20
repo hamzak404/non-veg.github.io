@@ -1,0 +1,1135 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/icons/fevicon.png" type="image/x-icon">
+    <title>Mansahari</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main1.css">
+    <link rel="stylesheet" href="css/join.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+
+<body>
+    <!-- BOOKLET -->
+    <!--  <div class="clr" data-toggle="modal" data-target="#myModalbooklet">
+    <img src="imgs/booklet.png" class="img-responsive">
+   </div>
+<style>
+.clr{
+    position: absolute;
+    margin-left: 20px;
+    top: 350px;
+    }
+
+</style> -->
+    <!-- END BOOKLET -->
+
+    <nav id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header"><a class="area">MANSAHARI</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span
+                        class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-menubuilder">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="outlet.html">Outlet</a>
+                    </li>
+                    <!-- <li><a href="price_locetor.html">Locator</a>
+                </li> -->
+                    <li><a href="products.html">Gallary</a>
+                    </li>
+                    <li><a href="partner-with-us.php">Partner with us</a>
+                    </li>
+                    <li><a href="about.html">About Us</a>
+                    </li>
+                    <!-- <li><a href="contact.html">Contact Us</a>
+                </li> -->
+                    <!-- <li class="area"> <p data-toggle="modal" data-target="#myModaljoin">Deal of the day!</p></li> -->
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="z-index: -1; position: relative;">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img class="third-slide" src="imgs/img19.jpg" alt="Third slide">
+            </div>
+            <div class="item">
+                <img class="first-slide" src="imgs/slider2.jpg" alt="First slide">
+            </div>
+            <div class="item">
+                <img class="second-slide" src="imgs/slider3.jpg" alt="Second slide">
+            </div>
+            <div class="item">
+                <img class="third-slide" src="imgs/slider4.jpg" alt="Third slide">
+            </div>
+
+        </div>
+
+
+    </div><!-- /.carousel -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-6">
+                <h3 class="section-title title_center ">Check out fresh one
+                    <!-- from our mall or store which is nearest from your house -->
+                </h3>
+            </div>
+            <!-- <div class="col-md-3" >
+   <span class="glyphicon glyphicon-shopping-cart" style="font-size: 50px; margin-top: 10px; margin-left: 200px;" data-toggle="modal" data-target="#myModalcart">4</span>
+   </div> -->
+        </div>
+    </div>
+    <!--categories of meat-->
+    <div class="container-fluid">
+        <div class="container" style="background-color: #ffdfc6;">
+            <div class="row category-row">
+                <div class="col-md-3 col-sm-6 category-box"
+                    onclick="$('#meat').show();$('#Sea').hide();$('#Steak').hide();$('#Mutton').hide();">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="" title="">
+                                <img src="img/icons/home4.png" alt="meat" class="cetegory-icon"></a>
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="icon-title">
+                                Chicken
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 category-box"
+                    onclick="$('#Sea').show();$('#meat').hide();$('#Steak').hide();$('#Mutton').hide();">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/icons/home1.png" alt="meat" class="cetegory-icon">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="icon-title">
+                                Sea Foods
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 category-box"
+                    onclick="$('#Mutton').show();$('#meat').hide();$('#Sea').hide();$('#Steak').hide();">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/icons/home2.png" alt="meat" class="cetegory-icon">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="icon-title">
+                                Mutton
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 category-box"
+                    onclick="$('#Steak').show();$('#meat').hide();$('#Sea').hide();$('#Mutton').hide();">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/icons/eggseggs2.png" alt="meat" class="cetegory-icon">
+
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="icon-title">
+                                Eggs
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- categories end-->
+
+    <!--Product showcase -->
+
+    <section id="meat">
+        <div class="container">
+
+            <div>
+                <div class="features_items">
+                    <h2 class="title text-center"> Our Featured Items (Price per KG)</h2>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/c1.jpg" alt="">
+
+
+                                        <p>Chicken Grill Whole</p>
+                                        <!--  <button class="btn btn-default ">Add to Cart</button> -->
+
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px; color: #7C0445;">₹ 180</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/c2.jpg" alt="">
+                                        <p style="color:red;"><strike></strike></p>
+
+                                        <p>Chicken with Skin</p>
+
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 190</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/c4.jpg" alt="">
+                                        <p style="color:red;"><strike></strike></p>
+
+                                        <p>Chicken Skinless</p>
+                                        <!--  -->
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!--  <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 200</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/c6.jpg" alt="">
+                                        <p style="color:red;"><strike></strike></p>
+
+                                        <p>Chicken Drumstick (with Skin)</p>
+
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 230</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/c5.jpg" alt="">
+                                        <p style="color:red;"><strike></strike></p>
+
+                                        <p>Chicken Whole Leg (with Skin)</p>
+                                        <!--  -->
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 220</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/c9.jpg" alt="">
+                                        <p style="color:red;"><strike></strike></p>
+
+                                        <p>Chicken Boneless</p>
+
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 360</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/chknkhima.jpg" alt="">
+                                        <p style="color:red;"><strike></strike></p>
+
+                                        <p>Chicken Keema</p>
+
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 159</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/chikn wings.jpg" alt="">
+                                        <p style="color:red;"><strike></strike></p>
+
+                                        <p>Chicken Wings Without Skin</p>
+
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 140</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/c8.jpg" alt="">
+                                        <p style="color:red;"><strike></strike></p>
+
+                                        <p>Chicken Lolipop</p>
+
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 190</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/Chicken_Breast_Boneless.jpg" alt="">
+                                        <p style="color:red;"><strike></strike></p>
+
+                                        <p>Chicken Breast Boneless</p>
+
+                                        <!--  <button class="btn btn-default ">Add to Cart</button> -->
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 179</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="Sea" hidden>
+        <div class="container">
+
+            <div>
+                <div class="features_items">
+                    <h2 class="title text-center">Featured Items (Price per KG)</h2>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/g3.jpg" alt="">
+
+
+                                        <p>POMPFRET</p>
+                                        <!--  <button class="btn btn-default ">Add to Cart</button> -->
+
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 750</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/tiger-prawn.jpg" alt="">
+
+
+                                        <p>PRAWNS</p>
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 650</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/surmai.jpg" alt="">
+
+
+                                        <p>SURMAI</p>
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 700</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/f9.jpg" alt="">
+
+
+                                        <p>RED SALMON</p>
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 675</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/Mackerel.png" alt="">
+
+
+                                        <p>BANGDA</p>
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 200</h2>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/basa.jpg" alt="">
+
+
+                                        <p>BASA</p>
+                                        <!--  <button class="btn btn-default ">Add to Cart</button> -->
+
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 350</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/bombay duck.jpg" alt="">
+
+
+                                        <p>BOMBAY DUCK</p>
+                                        <!--  <button class="btn btn-default ">Add to Cart</button> -->
+
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 150</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/crab.jpg" alt="">
+
+                                        <p>CRAB</p>
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 360</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/f2.jpg" alt="">
+
+
+                                        <p>RAVAS</p>
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 550</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/f3.jpg" alt="">
+
+
+                                        <p>ROHA</p>
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 550</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/g2.jpg" alt="">
+
+
+                                        <p>EEl(VAM)</p>
+                                        <!--  <button class="btn btn-default ">Add to Cart</button> -->
+
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 350</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <h3 class="section-title title_center ">Exotics </h3>
+            <div class="row">
+                <div class="col-sm-3">
+                </div>
+                <div class="col-md-3">
+                    <div class="product-image-wrapper">
+                        <div class="single-products ">
+                            <div class="productinfo text-center ">
+                                <img src="img/icons/f1.jpg" alt="">
+
+
+                                <p>SHELL</p>
+
+
+                            </div>
+                            <div class="product-overlay">
+                                <div class="overlay-content">
+
+                                    <h2 style="margin-bottom: 40px;">₹ 650</h2>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-image-wrapper">
+                        <div class="single-products ">
+                            <div class="productinfo text-center ">
+                                <img src="img/icons/f6.jpg" alt="">
+
+
+                                <p>FISH EGG</p>
+
+                            </div>
+                            <div class="product-overlay">
+                                <div class="overlay-content">
+
+                                    <h2 style="margin-bottom: 40px;">₹ 700</h2>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Steak" hidden>
+        <div class="container">
+
+            <div>
+                <div class="features_items">
+                    <h2 class="title text-center">Featured Items (Price per KG)</h2>
+                    <div class="row">
+                        <div class="col-sm-3">
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/e3.jpg" alt="">
+
+
+                                        <p> White Egg</p>
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!--  <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 70</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/e2.jpg" alt="">
+
+
+                                        <p>Brown Egg</p>
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!--  <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 70</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <section id="Mutton" hidden>
+        <div class="container">
+            <div>
+                <div class="features_items">
+                    <h2 class="title text-center"> Our Featured Items (Price per KG)</h2>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/m1.jpg" alt="">
+
+
+                                        <p>Mutton Rack (Ribs)</p>
+                                        <!--  <button class="btn btn-default ">Add to Cart</button> -->
+
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 575</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/m4.jpg" alt="">
+                                        <p style="color:red;"><strike></strike></p>
+
+                                        <p>Mutton Thigh</p>
+
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 580</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/m14.jpg" alt="">
+                                        <p style="color:red;"><strike></strike></p>
+
+                                        <p>Mutton Boneless</p>
+                                        <!--  -->
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!--  <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 750</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/m9.jpg" alt="">
+                                        <p style="color:red;"><strike></strike></p>
+
+                                        <p>Mutton Currycut</p>
+
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 480</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/m7.jpg" alt="">
+                                        <p style="color:red;"><strike></strike></p>
+
+                                        <p>Mutton bheja</p>
+                                        <!--  -->
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 575</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/m18.jpg" alt="">
+
+
+                                        <p>Mutton Kheema</p>
+
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 500</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/m15.jpg" alt="Chicken online Chennai">
+
+
+                                        <p>Mutton Nalli Nihari(Bones)
+
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 565</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/m12.jpg" alt="Chicken online Chennai">
+
+
+                                        <p>Mutton Liver </p>
+
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 750</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="product-image-wrapper">
+                                <div class="single-products ">
+                                    <div class="productinfo text-center ">
+                                        <img src="img/icons/m11.jpg" alt="Chicken online Chennai">
+                                        <p>Mutton Chops</p>
+
+                                        <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <!-- <button class="btn btn-default ">Add to Cart</button> -->
+                                            <h2 style="margin-bottom: 40px;">₹ 570</h2>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer class="footerBottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+
+                    <h5><b><span class="glyphicon glyphicon-phone-alt" style="margin:5px; "></span>8830475124</b></h5>
+                    <h5><b><span class="glyphicon glyphicon-envelope"
+                                style="margin:5px; "></span>inalphabet.corporation@outlook.com</b></h5>
+                    <br />
+                    <h5 style="color: #ffffff;"><b>2017 Inalphabet. All rights reserved</b></h5>
+                </div>
+                <div class="col-md-5">
+                    <h3><strong>Address :</strong></h3>
+                    <b>Inalphabet Corporation , Pune</b>
+                </div>
+                <div class="col-md-2">
+                    <img src="imgs/prawns.png" alt="">
+                </div>
+                <!-- <div class="copyright">&copy; 2017 Inalphabet. All rights reserved</div> -->
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- model for cart-->
+    <!-- <div class="modal fade" id="myModalcart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+       
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button><h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-shopping-cart"></span> My Cart</h4>
+       
+      </div>
+      <div class="modal-body">
+       <table class="table">
+         <tbody>
+            <tr>
+             <td class="text-center" style="width: 30px;">
+             <img width="30px" height="30px" src="img/icons/Chicken_Whole.jpg"></td> 
+
+             <td>Chicken Grill  Whole</td>
+             <td>₹ 180</td>
+             <td>
+             <input type="number" min="1" style="width: 70px;">
+             </td>
+             <td>₹ 180</td>
+             <td title="Remove from Cart" style="width: 30px;">
+             <span class="btn btn-xs btn-danger">X</span>
+             </td>
+             </tr>
+
+             <tr>
+             <td class="text-center" style="width: 30px;">
+             <img width="30px" height="30px" src="img/icons/ChickenCurryCut.png"></td> 
+     
+             <td>Chicken with Skin</td>
+             <td>₹ 190</td>
+             <td>
+             <input type="number" min="1" style="width: 70px;">
+             </td>
+             <td>₹ 190</td>
+             <td title="Remove from Cart" style="width: 30px;">
+             <span class="btn btn-xs btn-danger">X</span>
+             </td>
+             </tr>
+
+             <tr>
+             <td class="text-center" style="width: 30px;">
+             <img width="30px" height="30px" src="img/icons/Chicken-Whole-Skin-Off.jpg"></td> 
+
+             <td>Chicken  Skinless</td>
+             <td>₹ 200</td>
+             <td>
+             <input type="number" min="1" style="width: 70px;">
+             </td>
+             <td>₹ 200</td>
+             <td title="Remove from Cart" style="width: 30px;">
+             <span class="btn btn-xs btn-danger">X</span>
+             </td>
+             </tr>
+
+             <tr>
+             <td></td>
+             <td><strong>Total</strong></td>
+             <td></td>
+             <td></td>
+             <td><strong>₹ 1520</strong></td>
+             <td></td>
+             </tr>    
+             <tr style="color: red">
+             <td></td>
+             <td><strong>Total (including discount)</strong></td>
+             <td></td>
+             <td></td>
+             <td><strong>$1500</strong></td>
+             <td></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>
+
+             <div class="modal-footer">
+             <div class="row">
+             <div class="col-md-9">
+             </div>
+              
+             <div class="col-md-3">
+             <a href="check.html" title=""><button type="button" class="btn btn-info">Checkout</button></a>
+             </div>
+             </div>
+             </div>
+        </div>
+        </div>
+        </div> -->
+    <!-- end model cart -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+    <!-- booklet lin and script -->
+    <!-- <script type="text/javascript" src="extras/jquery.min.1.7.js"></script>
+		<script type="text/javascript" src="extras/jquery-ui-1.8.20.custom.min.js"></script>
+		<script type="text/javascript" src="extras/jquery.mousewheel.min.js"></script>
+		<script type="text/javascript" src="extras/modernizr.2.5.3.min.js"></script>
+		<script type="text/javascript" src="lib/hash.js"></script> -->
+    <!--  end booklet lin and script -->
+
+</body>
+
+</html>
